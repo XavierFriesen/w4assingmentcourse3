@@ -13,7 +13,7 @@ if (!file.exists(file)) {
 
 # unzip zip file containing data if data directory doesn't already exist
 dataPath <- "UCI HAR Dataset"
-if (!file.exists(dataPath)) {
+if (!file.exists(file)) {
   unzip(zipFile)
 }
 
